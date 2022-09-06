@@ -1,0 +1,145 @@
+body{
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+    align-items: center; 
+    justify-content: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+h1{
+  color:  hsl(0, 0%, 100%);
+  font-size: 27px;
+  font-weight: 400;
+  margin: 15px 0px 0px 0px;
+}
+
+p{
+  color:  hsl(216, 12%, 54%);
+  font-size: 15px;
+  word-wrap:break-word;
+  line-height: 1.5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+main{
+  width: 380px;
+}
+
+.container{
+  display: flex ;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  text-align: left;
+  padding: 25px;
+  justify-content: space-between;
+  height: 320px;
+}
+
+.container2{
+  display: flex ;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  text-align: center;
+  padding: 25px;
+  align-items: center; 
+  justify-content: space-between;
+  height: 320px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px ;
+  gap: 30px;
+}
+
+.item{
+  display: block;
+  background-color: hsl(213, 19%, 24%);
+  border-radius: 50%;
+  border: none;
+  color: hsl(216, 12%, 54%);
+  height: 50px;
+  width: 50px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+.image{
+  border-radius: 100%;
+    background-color:  hsl(213, 19%, 24%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  
+}
+
+.thankImage{
+    height: 100px;
+    width: 160px;
+    padding-top: 0px;
+}
+
+img{
+  margin-top: 12px;
+}
+
+.button{
+  display: solid;
+  border-radius: 30px;
+  background-color: hsl(25, 97%, 53%);
+  padding: 13px;
+  width: 100%;
+  color:  hsl(0, 0%, 100%);
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 4px;
+  border: none;
+  font-weight: 400;
+}
+
+.button:active{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.item:hover{
+color:  hsl(0, 0%, 100%);
+background-color: hsl(217, 12%, 63%);
+}
+
+.item:active{
+color:  hsl(0, 0%, 100%);
+background-color:  hsl(25, 97%, 53%);
+}
+
+.rating{
+  border-radius: 30px;
+  background-color:  hsl(213, 19%, 24%);
+  color: hsl(25, 97%, 53%);
+  padding: 5px 0px 5px 0px;
+  width: 210px;
+  font-size: 15px;
+  margin-top: 23px;
+}
+
+.thankheader{
+  font-size: 25px;
+  margin-top: 12px;
+}
+
+.thanks{
+  width: 338px;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
