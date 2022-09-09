@@ -118,10 +118,21 @@ color:  hsl(0, 0%, 100%);
 background-color: hsl(217, 12%, 63%);
 }
 
-.item:active{
+.whenclicked{
 color:  hsl(0, 0%, 100%);
 background-color:  hsl(25, 97%, 53%);
+  display: block;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 13px;
+  margin-bottom: 20px;
 }
+
 
 .rating{
   border-radius: 30px;
